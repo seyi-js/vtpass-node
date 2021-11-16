@@ -1,0 +1,21 @@
+{
+  "name": "vtpass-node",
+  "version": "1.0.0",
+  "description": "A nodejs sdk for interaction with vtpass api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vtpass",
+    "sdks",
+    "nodejs",
+    "vtpass-node",
+    "node-vtpass"
+  ],
+  "author": "SEYIJS",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
