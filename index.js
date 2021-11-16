@@ -1,3 +1,3 @@
-const VtPass = require('./lib/Vtpass');
+const VTpass = require('./lib/Vtpass');
 
-module.exports = VtPass;
+module.exports = VTpass;
