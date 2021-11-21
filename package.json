@@ -1,11 +1,19 @@
 {
   "name": "vtpass-node",
   "version": "1.0.0",
-  "description": "A nodejs sdk for interaction with vtpass api.",
+  "description": "A nodejs sdk for interacting with vtpass api.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyi-js/vtpass-node.git"
+  },
+  "contributors": [
+    "Samuel Adebayo <adebayosamueljahsmine30@gmail.com>"
+  ],
+  "homepage": "https://github.com/seyi-js/vtpass-node#readme",
   "keywords": [
     "vtpass",
     "sdks",
