@@ -3,14 +3,14 @@
 ## Installation
 
 ```bash
-npm i vtpass-node-sdk
+npm i vtpass-node
 ```
 
 
 ## Usage
 
 ```js
-const VTpass = require('vtpass-node-sdk')
+const VTpass = require('vtpass-node')
 
 
 const vtpass = new VTpass()//For development
