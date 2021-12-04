@@ -20,13 +20,15 @@ const vtpass = new VTpass('production','username','password')//Production
 ( async () => {
     
     //Airtime Purchase
-    network:'',
-    amount:'',
-    recipient_phone:'08011111111'//For development
-    request_id:''//One is generated if not provided
+    const network ='';
+    const amount='';
+    const recipient_phone = '08011111111';//For development
+    const request_id ='';//One is generated if not provided
         
     
-    await vtpass.service.purchaseAirtime(newtwork,amount,recipient,request_id);
+    const response = await vtpass.service.purchaseAirtime(network,amount,recipient_phone,request_id);
+
+    console.log(response)
 
 })()
 ```
