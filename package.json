@@ -1,13 +1,10 @@
 {
   "name": "vtpass-node",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "A nodejs sdk for interacting with vtpass api.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
