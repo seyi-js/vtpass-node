@@ -4,7 +4,7 @@
   "description": "A nodejs sdk for interacting with vtpass api.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pre:publish": ""
   },
   "repository": {
     "type": "git",
